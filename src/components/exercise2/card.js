@@ -16,7 +16,7 @@ class Card extends Component {
     return (
       <>
         {this.state.products.map(({ id, name, description, price }) => (
-          <article className="Card" style={{}} key={id}>
+          <article className="Card" key={id}>
             <div className="title">
               <h3>{name}</h3>
               <p>{description}</p>
